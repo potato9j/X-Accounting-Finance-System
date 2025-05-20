@@ -62,7 +62,7 @@ data class JournalEntry(
 )
 ```
 
-#### 2. 자동 분개 처리 로직 (알고리즘)
+#### 2. 자동 분개 처리 로직 (기초)
 ```kotlin
 fun createJournalEntry(input: List<Triple<String, Boolean, Double>>): JournalEntry {
     val debits = input.filter { it.second }.map { AccountEntry(it.first, true, it.third) }
@@ -72,7 +72,7 @@ fun createJournalEntry(input: List<Triple<String, Boolean, Double>>): JournalEnt
 }
 ```
 
-#### 3. 재무제표 생성 로직 (기초 모델)
+#### 3. 재무제표 생성 로직 (기초)
 ```kotlin
 fun createTrialBalance(entries: List<JournalEntry>): Map<String, Double> {
     val accountBalances = mutableMapOf<String, Double>()
