@@ -93,7 +93,7 @@ fun createTrialBalance(entries: List<JournalEntry>): Map<String, Double> {
 
 <br>
 
-
+> MVP 완성 시, 본 파일은 PLAN 폴더로 이동됩니다.
 
 
 
