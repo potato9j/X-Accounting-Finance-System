@@ -34,3 +34,8 @@
 | 25.05.20 | - | WAY2 선택 ; React.js + Firebase or Vercel |
 | 25. | - | - |
 
+
+<br>
+
+> MVP 완성 시, 본 파일은 PLAN 폴더로 이동되며
+> 완성본 README.md 파일이 생성됩니다.
