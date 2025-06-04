@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounting Finance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Accounting Finance System</h1>
+    <section id="transaction-input">
+        <h2>거래 입력</h2>
+        <input id="account" placeholder="계정 과목" />
+        <input id="desc" placeholder="거래 내용" />
+        <input id="amount" type="number" placeholder="금액" />
+        <select id="type">
+            <option value="debit">차변</option>
+            <option value="credit">대변</option>
+        </select>
+        <button id="add-transaction">추가</button>
+    </section>
+
+    <section id="adjust-period">
+        <h2>수정 분개 기간</h2>
+        <input id="start" type="date" /> ~
+        <input id="end" type="date" />
+        <button id="run-adjust">수정분개 실행</button>
+    </section>
+
+    <section id="output">
+        <h2>시산표 및 재무제표</h2>
+        <div id="trial-before"></div>
+        <div id="trial-after"></div>
+        <div id="income"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
